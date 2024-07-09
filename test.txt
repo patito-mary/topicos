@@ -1,0 +1,21 @@
+density25b = []
+density10b = []
+
+for i in range(len(orbits_total_b.t)):
+    difference = orbits_total_b.pos[i,:] - orbit_b.pos[i]
+    distance_25b = difference.norm()/(2.5*u.kpc)
+    distance_10b = difference.norm()/(1.0*u.kpc)
+    
+    pos_25b = np.where(distance_25b<=1)[0]
+    pos_10b = np.where(distance_10b<=1)[0]
+    
+    densitypoints_25b = distance_25b[pos_25b]
+    densitypoints_10b = distance_10b[pos_10b]
+    
+    vol25b = (4/3) * np.pi * (2.5**3)
+    densitytotal_25b = len(densitypoints_25b) / vol25b
+    density25b.append(densitytotal_25b)
+    
+    vol10b = (4/3) * np.pi * (1.0**3)
+    densitytotal_10b = len(densitypoints_10b) / vol10b
+    density10b.append(densitytotal_10b)
