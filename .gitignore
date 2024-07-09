@@ -5,5 +5,6 @@ ModuloII/dolphot2.0/**/*.fits
 ModuloII/acs/**/*.fits
 respaldofits/*.fits
 .DS_store
+*.key
 
 
