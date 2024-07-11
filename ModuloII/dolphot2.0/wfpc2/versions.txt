@@ -1,0 +1,8 @@
+References for data used in current DOLPHOT module
+
+- Zero Points: http://purcell.as.arizona.edu/wfpc2_calib/ (2009 May 13)
+- Encircled Energy: implicit in zero points, which are computed to 0.5" radius
+- CTE Corrections: http://purcell.as.arizona.edu/wfpc2_calib/ (2009 May 13)
+- PSFs: Tiny Tim 7.0
+- Distortion Coefficients: Holtzman et al. (1995), PASP, 107, 156
+- Pixel Area Map: Computed from distortion coefficients

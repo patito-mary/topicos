@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "dolphot2.0"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"dolphot.h": "c"
+		}
+	}
+}

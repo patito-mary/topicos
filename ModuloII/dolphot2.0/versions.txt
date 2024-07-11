@@ -1,0 +1,25 @@
+References for data used in current DOLPHOT modules
+
+WFPC2
+- Zero Points: http://purcell.as.arizona.edu/wfpc2_calib/ (2009 May 13)
+- Encircled Energy: implicit in zero points, which are computed to 0.5" radius
+- CTE Corrections: http://purcell.as.arizona.edu/wfpc2_calib/ (2009 May 13)
+- PSFs: Tiny Tim 7.0
+- Distortion Coefficients: Holtzman et al. (1995), PASP, 107, 156
+- Pixel Area Map: Computed from distortion coefficients
+
+ACS
+- Zero Points: ACS ISR 2012-01 (Bohlin), using 2004.5 for pre-2006 and 2009.5 for post
+- Encircled Energy: ACS ISR 2012-01 (Bohlin)
+- CTE Corrections: ACS-ISR 09-01 (Chiaberge et al.)
+- PSFs: Tiny Tim 6.2; Jay Anderson's PSFs replace Tiny Tim cores if selected
+- Distortion Coefficients: Current as of 3 March 2006
+- Pixel Area Map: Recommended process in multidrizzle, as of 2004 Feb 11.
+
+WFC3
+- Zero Points: WFC3 Photometric Zero Points posted March 6, 2012
+- Encircled Energy: Interpolated from uvis_ee_model_smov.dat and ir_ee_model_smov.dat, using pivot wavelengths
+- CTE Corrections: none implemented
+- PSFs: Tiny Tim 7.0; Jay Anderson's PSFs replace Tiny Tim cores if selected
+- Distortion Coefficients: v5r1512gi_idc.fits (UVIS), v5r1512fi_idc.fits (IR)
+- Pixel Area Map: Obtained from STScI: "Created 9/17/2009"

@@ -1,0 +1,8 @@
+References for data used in current DOLPHOT module
+
+- Zero Points: ACS ISR 2012-01 (Bohlin), using 2004.5 for pre-2006 and 2009.5 for post
+- Encircled Energy: ACS ISR 2012-01 (Bohlin)
+- CTE Corrections: ACS-ISR 09-01 (Chiaberge et al.)
+- PSFs: Tiny Tim 6.2; Jay Anderson's PSFs replace Tiny Tim cores if selected
+- Distortion Coefficients: Current as of 3 March 2006
+- Pixel Area Map: Recommended process in multidrizzle, as of 2004 Feb 11.
